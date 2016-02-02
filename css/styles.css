@@ -11,14 +11,12 @@ ul {
 	overflow: hidden;
 }
 
-/* MENU */
-
-ul.menu {
-	color: black;
-	/*left: 300px;*/
-	/*position: absolute;*/
-	/*top: 450px;*/
+img {
+	height: auto;
+	max-width: 100%;
 }
+
+/* MENU */
 
 ul.menu li { float: left; }
 
@@ -57,6 +55,8 @@ ul.menu li a {
 
 .grid .img {
 	border: 1px solid #fff;
+	cursor: hand;
+	cursor: pointer;
 	float: left;
 	padding: 2px;
 	transition: 500ms ease-in-out;
