@@ -1,0 +1,120 @@
+
+.dogsurf {
+    position: relative;
+}
+
+.kickass {
+    font-size: 40px;
+    color: white;
+    font-family: "copperplate", Times, serif;
+    top: 150px;
+    left: 40px;
+    position: absolute;
+    
+}
+
+.menu{
+    position: absolute;
+    top: 450px;
+    left: 300px
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "copperplate", Times, serif;
+    font-size: 19px;
+}
+.copy {
+    font-family: "verdana", Times, serif;
+    font-size: 16px;
+    left: 10px;
+    color: #585858;
+    padding: 30px 30px 50px 80px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.container2 {
+    padding-left: 70px;
+}
+
+.img{
+	float: left;
+	-webkit-transition-duration: 0.5s;
+	}
+.img img{
+	padding:2px;
+	border:1px solid #fff;
+}
+.img:hover{
+	-webkit-transform:scale(0.9);
+	-webkit-box-shadow:0px 0px 10px #ccc;
+}	
+.img .mask{
+	width: 100%;
+	background-color: rgb(0, 0, 0);
+	position: absolute;
+	height: 100%; 
+	opacity:0.6;
+	cursor:pointer;
+	-webkit-transition-duration: 0.5s;
+}
+#img-1:hover .mask{
+	height:0%;	
+}
+#img-2:hover .mask{
+	height:0%;	
+	margin-top:130px;
+}
+#img-3 #mask-1 {
+	width:50%;
+}
+#img-3 #mask-2{
+	width:50%;
+	margin-left:211px;
+}
+#img-3:hover #mask-1{
+	width:0%;
+}
+#img-3:hover #mask-2{
+	margin-left:430px;
+	width:0%;
+}
+#img-4:hover .mask{
+	margin-left:219px;
+	margin-top:135px;
+	height:0%;
+	width:0%;
+}
+#img-5:hover .mask{
+	margin-left:219px;
+	margin-top:135px;
+	height:0%;
+	width:0%;
+	-webkit-transform: rotateX(360deg);
+}
+#img-6:hover .mask{
+	margin-left:219px;
+	margin-top:135px;
+	height:0%;
+	width:0%;
+	-webkit-transform: rotateZ(750deg);
+}
